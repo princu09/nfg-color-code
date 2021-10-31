@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.accent-color {
+    color: #2a3e55 !important;
+}
+
+.accent-bg {
+    background-color : #2a3e55 !important;
+}
+
+.primary-color {
+    color: #FF6600 !important;
+}
+
+.primary-bg {
+    color: #FF6600 !important;
+}

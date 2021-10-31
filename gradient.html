@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Codes</title>
+
+    <!-- j-query -->
+    <script src="assets/jquery-3.5.1.min.js"></script>
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+
+    <!-- font-awesome css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <nav class="container navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand font-weight-bold" href="#">NFG_ColorCodes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Social Icons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="colors.html">Colors</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="gradient.html">Gradient</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="cdn.html">CDN</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0 search">
+                <input id="searchTxt" class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search"
+                    aria-label="Search" style="width: 300px;">
+            </form>
+        </div>
+    </nav>
+    <div class="color-alert">
+        <div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 100px;">
+            <div class="toast" style="position: absolute; top: 0; right: 0;" data-autohide="false">
+                <div class="toast-header">
+                    <strong class="mr-auto color-title-toast">NFG ColorCodes</strong>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    Copied Successfully ! <span class="color-code-toast"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(15, 32, 39), rgb(32, 58, 67), rgb(44, 83, 100));">
+                    <p class="m-0 p-0 color-code">Moonlit Asteroid</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(31, 64, 55), rgb(153, 242, 200));">
+                    <p class="m-0 p-0 color-code">Harvey</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54));">
+                    <p class="m-0 p-0 color-code">Witching Hour</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(35, 7, 77), rgb(204, 83, 51));">
+                    <p class="m-0 p-0 color-code">Taran Tado</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(15, 12, 41), rgb(48, 43, 99), rgb(36, 36, 62));">
+                    <p class="m-0 p-0 color-code">Lawrencium</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(3, 0, 30), rgb(115, 3, 192), rgb(236, 56, 188), rgb(253, 239, 249));">
+                    <p class="m-0 p-0 color-code">Argon</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(0, 0, 0), rgb(15, 155, 15));">
+                    <p class="m-0 p-0 color-code">Terminal</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(0, 0, 70), rgb(28, 181, 224));">
+                    <p class="m-0 p-0 color-code">Visions of Grandeur</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(235, 87, 87), rgb(0, 0, 0));">
+                    <p class="m-0 p-0 color-code">Coal</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(32, 0, 44), rgb(203, 180, 212));">
+                    <p class="m-0 p-0 color-code">Purplepine</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(52, 232, 158), rgb(15, 52, 67));">
+                    <p class="m-0 p-0 color-code">Pacific Dream</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(68, 160, 141), rgb(9, 54, 55));">
+                    <p class="m-0 p-0 color-code">Orca</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(32, 1, 34), rgb(111, 0, 0));">
+                    <p class="m-0 p-0 color-code">Love and Liberty</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(9, 48, 40), rgb(35, 122, 87));">
+                    <p class="m-0 p-0 color-code">Under the Lake</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(240, 242, 240), rgb(0, 12, 64));">
+                    <p class="m-0 p-0 color-code">What lies Beyond</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(65, 41, 90), rgb(47, 7, 67));">
+                    <p class="m-0 p-0 color-code">80's Purple</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(0, 4, 40), rgb(0, 78, 146));">
+                    <p class="m-0 p-0 color-code">Frost</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(20, 30, 48), rgb(36, 59, 85));">
+                    <p class="m-0 p-0 color-code">Royal</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(0, 0, 0), rgb(67, 67, 67));">
+                    <p class="m-0 p-0 color-code">Deep Space</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(142, 14, 0), rgb(31, 28, 24));">
+                    <p class="m-0 p-0 color-code">Netflix</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(186, 139, 2), rgb(24, 24, 24));">
+                    <p class="m-0 p-0 color-code">Dark Knight</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(106, 145, 19), rgb(20, 21, 23));">
+                    <p class="m-0 p-0 color-code">Green to dark</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(0, 191, 143), rgb(0, 21, 16));">
+                    <p class="m-0 p-0 color-code">Vine</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(255, 0, 132), rgb(51, 0, 27));">
+                    <p class="m-0 p-0 color-code">Flickr</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(100, 65, 165), rgb(42, 8, 69));">
+                    <p class="m-0 p-0 color-code">Twitch</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(255, 161, 127), rgb(0, 34, 62));">
+                    <p class="m-0 p-0 color-code">Predawn</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(54, 0, 51), rgb(11, 135, 147));">
+                    <p class="m-0 p-0 color-code">Purple Bliss</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(148, 142, 153), rgb(46, 20, 55));">
+                    <p class="m-0 p-0 color-code">Talking To Mice Elf</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(30, 19, 12), rgb(154, 132, 120));">
+                    <p class="m-0 p-0 color-code">Hersheys</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(82, 194, 52), rgb(6, 23, 0));">
+                    <p class="m-0 p-0 color-code">Behongo</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(0, 0, 0), rgb(231, 76, 60));">
+                    <p class="m-0 p-0 color-code">Red Mist</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(240, 194, 123), rgb(75, 18, 72));">
+                    <p class="m-0 p-0 color-code">Starfall</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(135, 0, 0), rgb(25, 10, 5));">
+                    <p class="m-0 p-0 color-code">The Strain</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(33, 95, 0), rgb(228, 228, 217));">
+                    <p class="m-0 p-0 color-code">Misty Meadow</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(75, 108, 183), rgb(24, 40, 72));">
+                    <p class="m-0 p-0 color-code">Pinot Noir</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(65, 77, 11), rgb(114, 122, 23));">
+                    <p class="m-0 p-0 color-code">Army</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(192, 72, 72), rgb(72, 0, 72));">
+                    <p class="m-0 p-0 color-code">Influenza</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(35, 37, 38), rgb(65, 67, 69));">
+                    <p class="m-0 p-0 color-code">Midnight City</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(31, 28, 44), rgb(146, 141, 171));">
+                    <p class="m-0 p-0 color-code">Steel Gray</p>
+                </div>
+            </div>
+            <div class="col-md-4 gradient-color color">
+                <div class="gradient-card card my-2 p-3"
+                    style="background: linear-gradient(to right, rgb(22, 34, 42), rgb(58, 96, 115));">
+                    <p class="m-0 p-0 color-code">Mirage</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- bootstrap js -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- custom js -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
